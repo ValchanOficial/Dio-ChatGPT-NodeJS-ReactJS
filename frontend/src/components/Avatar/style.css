@@ -1,0 +1,13 @@
+.avatar-user {
+    background-color: white;
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+}
+
+.avatar-chatgpt {
+    background-color: #0da37f;
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+}

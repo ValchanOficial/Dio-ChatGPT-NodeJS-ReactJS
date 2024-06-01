@@ -1,0 +1,14 @@
+.chatmessage-chatgpt {
+    background-color: #444654;
+    border-radius: 1.5rem;
+}
+
+.chatmessage_center {
+    display: flex;
+    padding: 1rem 1.5rem;
+    align-items: center;
+}
+
+.chatmessage__text {
+    padding-left: 1.5rem;
+}

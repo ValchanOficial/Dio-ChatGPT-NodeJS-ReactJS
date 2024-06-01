@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  color: white;
+  background-color: #282c34;
+}
+
+/* Chat */
+
+.chatbox {
+  flex: 1;
+  background-color: #353541;
+  position: relative;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 8rem;
+}
+
+.chat_input {
+  width: 100%;
+}
+
+.chat_input form { 
+  display: flex;
+  margin: 1.5rem;
+}
+
+.chat_input__text {
+  background-color: #40414f;
+  width: 100%;
+  padding: 1.2rem;
+  color: white;
+  border-radius: 0.5rem;
+  border: none;
+  outline: none;
+  box-shadow: 0 0 0.8rem 0 rgba(0, 0, 0, 0.25);
+  resize: none;
+  margin-right: 1rem;
+}
+
+.chat_log {
+  text-align: left;
+  white-space: pre-wrap;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  overflow-y: auto;
+}
+
+.chat_log > span {
+  align-self: center;
+  height: 4rem;
+}
+
+button {
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+  color: inherit;
+
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+}
+
+button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
